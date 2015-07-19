@@ -13,6 +13,12 @@
 		89910BC71B5B408D00BEA5A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89910BC61B5B408D00BEA5A8 /* Images.xcassets */; };
 		89910BCA1B5B408D00BEA5A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89910BC81B5B408D00BEA5A8 /* LaunchScreen.xib */; };
 		89910BD61B5B408D00BEA5A8 /* FollowAnimal02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89910BD51B5B408D00BEA5A8 /* FollowAnimal02Tests.swift */; };
+		89910BE01B5B41B300BEA5A8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89910BDF1B5B41B300BEA5A8 /* icon.png */; };
+		89910BE71B5B41BC00BEA5A8 /* akakin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89910BE21B5B41BC00BEA5A8 /* akakin.png */; };
+		89910BE81B5B41BC00BEA5A8 /* haikei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89910BE31B5B41BC00BEA5A8 /* haikei.jpeg */; };
+		89910BE91B5B41BC00BEA5A8 /* haikeimini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89910BE41B5B41BC00BEA5A8 /* haikeimini.jpg */; };
+		89910BEA1B5B41BC00BEA5A8 /* orekin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89910BE51B5B41BC00BEA5A8 /* orekin.png */; };
+		89910BEB1B5B41BC00BEA5A8 /* syumi.png in Resources */ = {isa = PBXBuildFile; fileRef = 89910BE61B5B41BC00BEA5A8 /* syumi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		89910BCF1B5B408D00BEA5A8 /* FollowAnimal02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowAnimal02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89910BD41B5B408D00BEA5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89910BD51B5B408D00BEA5A8 /* FollowAnimal02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowAnimal02Tests.swift; sourceTree = "<group>"; };
+		89910BDF1B5B41B300BEA5A8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		89910BE21B5B41BC00BEA5A8 /* akakin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = akakin.png; sourceTree = "<group>"; };
+		89910BE31B5B41BC00BEA5A8 /* haikei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpeg; sourceTree = "<group>"; };
+		89910BE41B5B41BC00BEA5A8 /* haikeimini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikeimini.jpg; sourceTree = "<group>"; };
+		89910BE51B5B41BC00BEA5A8 /* orekin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orekin.png; sourceTree = "<group>"; };
+		89910BE61B5B41BC00BEA5A8 /* syumi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syumi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				89910BBF1B5B408D00BEA5A8 /* AppDelegate.swift */,
+				89910BDF1B5B41B300BEA5A8 /* icon.png */,
+				89910BE11B5B41BC00BEA5A8 /* image */,
 				89910BC11B5B408D00BEA5A8 /* ViewController.swift */,
 				89910BC31B5B408D00BEA5A8 /* Main.storyboard */,
 				89910BC61B5B408D00BEA5A8 /* Images.xcassets */,
@@ -110,6 +124,18 @@
 				89910BD41B5B408D00BEA5A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89910BE11B5B41BC00BEA5A8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				89910BE21B5B41BC00BEA5A8 /* akakin.png */,
+				89910BE31B5B41BC00BEA5A8 /* haikei.jpeg */,
+				89910BE41B5B41BC00BEA5A8 /* haikeimini.jpg */,
+				89910BE51B5B41BC00BEA5A8 /* orekin.png */,
+				89910BE61B5B41BC00BEA5A8 /* syumi.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89910BE01B5B41B300BEA5A8 /* icon.png in Resources */,
+				89910BEB1B5B41BC00BEA5A8 /* syumi.png in Resources */,
+				89910BE71B5B41BC00BEA5A8 /* akakin.png in Resources */,
+				89910BE91B5B41BC00BEA5A8 /* haikeimini.jpg in Resources */,
+				89910BE81B5B41BC00BEA5A8 /* haikei.jpeg in Resources */,
 				89910BC51B5B408D00BEA5A8 /* Main.storyboard in Resources */,
+				89910BEA1B5B41BC00BEA5A8 /* orekin.png in Resources */,
 				89910BCA1B5B408D00BEA5A8 /* LaunchScreen.xib in Resources */,
 				89910BC71B5B408D00BEA5A8 /* Images.xcassets in Resources */,
 			);
@@ -343,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FollowAnimal02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FollowAnimal02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
